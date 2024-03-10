@@ -1,0 +1,29 @@
+{
+    "name": "bobhearnit/registration-bundle",
+    "type": "library",
+    "description": "Provides registration helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cédric Audurieau",
+            "email": "caudurieau@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2",
+        "symfony/security-bundle": "6.4.*",
+        "symfony/form": "6.4.*",
+        "symfony/validator": "6.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BobHearnIT\\RegistrationBundle\\": "src"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "require": "6.4.*"
+        }
+    }
+}
